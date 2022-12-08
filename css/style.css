@@ -3395,6 +3395,10 @@ footer .gradient {
 /*== 425px Media Queries Styles ==*/
 
 @media screen and (max-width: 425px) {
+     .banner {
+        background-size: auto;
+    }
+     
     .jumbotron {
         text-align: center;
     }
