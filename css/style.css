@@ -3953,15 +3953,15 @@ i.toggler {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b9b9b', endColorstr='#4b9b9b', GradientType=1);
 }
 
-.dark-mode .services {
+.dark-mode #serv {
     margin-top: -10px;
 }
 
-.dark-mode.dark-mode .services h3 {
+.dark-mode #serv h3 {
     color: white;
 }
 
-.dark-mode .services .row {
+.dark-mode #serv .row {
     background-color: black;
 }
 
