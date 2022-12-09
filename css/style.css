@@ -1367,6 +1367,10 @@ footer .gradient {
     padding: 60px 0;
 }
 
+.services .row {
+    margin: 10px;
+}
+
 .services h2 {
     color: #ad3284;
     font-size: 32px;
@@ -3400,6 +3404,10 @@ footer .gradient {
         margin-top: 30px;
         margin-bottom: -20px;
     }
+
+    .blog-page #botto {
+        display: none;
+    }
 }
 
 /*== 425px Media Queries Styles ==*/
@@ -3891,7 +3899,7 @@ i.toggler {
 }
 
 .dark-mode .col1 {
-    background-color: gray;
+    background-color: #000;
 }
 
 .dark-mode .col2 {
@@ -3925,15 +3933,38 @@ i.toggler {
     background-color: #2b2b2b;
 }
 
-.about-home .main-content {
+.dark-mode .about-home .main-content {
     background-color: black;
 }
 
-.blogs-home .blog-list .bottom-details {
+.dark-mode .blogs-home .blog-list .bottom-details {
     background-color: black;
     color: rgb(107, 107, 107);
 }
 
-.blogs-home .blog-list .bottom-details p a {
+.dark-mode .blogs-home .blog-list .bottom-details p a {
     color: white;
+}
+
+.dark-mode .another .gradient {
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b9b9b', endColorstr='#4b9b9b', GradientType=1);
+}
+
+.dark-mode .services {
+    margin-top: -10px;
+}
+
+.dark-mode.dark-mode .services h3 {
+    color: white;
+}
+
+.dark-mode .services .row {
+    background-color: black;
+}
+
+.dark-mode #blog-single .main-content {
+    background-color: #000;
 }
