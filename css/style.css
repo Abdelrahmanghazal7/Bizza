@@ -3377,6 +3377,11 @@ footer .gradient {
 /*== 767px Media Queries Styles ==*/
 
 @media screen and (max-width: 767px) {
+
+    .banner {
+        background-size: auto;
+    }
+
     .navbar-dark .navbar-nav .hidden {
         display: none;
     }
@@ -3390,15 +3395,24 @@ footer .gradient {
         height: 200px;
         margin-bottom: 300px;
     }
+
+    .subscribe .container .main-content {
+        margin-top: 30px;
+        margin-bottom: -20px;
+    }
 }
 
 /*== 425px Media Queries Styles ==*/
 
 @media screen and (max-width: 425px) {
-     .banner {
-        background-size: auto;
+    #elth {
+        display: none;
     }
-     
+
+    .blog {
+        display: none;
+    }
+
     .jumbotron {
         text-align: center;
     }
@@ -3834,7 +3848,7 @@ i.toggler {
 }
 
 .dark-mode .services {
-    background-color: black;
+    background-color: rgb(39, 39, 39);
     bottom: -10px;
 }
 
@@ -3901,4 +3915,25 @@ i.toggler {
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b9b9b', endColorstr='#4b9b9b', GradientType=1);
+}
+
+.dark-mode .theme {
+    background-color: #2b2b2b;
+}
+
+.dark-mode #seo {
+    background-color: #2b2b2b;
+}
+
+.about-home .main-content {
+    background-color: black;
+}
+
+.blogs-home .blog-list .bottom-details {
+    background-color: black;
+    color: rgb(107, 107, 107);
+}
+
+.blogs-home .blog-list .bottom-details p a {
+    color: white;
 }
