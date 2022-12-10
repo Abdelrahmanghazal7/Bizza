@@ -2971,6 +2971,8 @@ footer .gradient {
     #blog-single .main-heading h2 {
         font-size: 22px;
         line-height: 30px;
+        color: black;
+        margin-bottom: -30px;
     }
 
     #blog-single p {
@@ -3993,4 +3995,13 @@ i.toggler {
 
 .dark-mode #blog-single .main-content {
     background-color: #000;
+}
+
+.dark-mode #blog-single .main-heading h2 {
+    color: white;
+    margin-bottom: -30px;
+}
+
+.dark-mode #blog-single .heading3 h2 {
+    color: white;
 }
