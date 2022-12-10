@@ -3399,6 +3399,10 @@ footer .gradient {
     #lor {
         margin-bottom: -10px;
     }
+     
+    #blog-single h4 {
+        font-size: 12px;
+    }
 }
 
 /*== 767px Media Queries Styles ==*/
