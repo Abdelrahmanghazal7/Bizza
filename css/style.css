@@ -3385,6 +3385,18 @@ footer .gradient {
     #form {
         padding: 30px;
     }
+
+    #lorem {
+        padding: 10px;
+    }
+
+    #lore {
+        padding-left: 10px;
+    }
+
+    #lor {
+        margin-bottom: -10px;
+    }
 }
 
 /*== 767px Media Queries Styles ==*/
@@ -3913,6 +3925,11 @@ i.toggler {
 
 .dark-mode .col2 {
     background-color: gray;
+}
+
+.dark-mode #co {
+    background-color: gray;
+
 }
 
 .dark-mode #seo {
